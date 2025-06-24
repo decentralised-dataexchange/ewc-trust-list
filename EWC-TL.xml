@@ -131,6 +131,57 @@
                         </ServiceName>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banca Transilvania S.A.</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banca Transilvania S.A.</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Calea Dorobanților 30-36</StreetAddress>
+                            <Locality>Cluj-Napoca</Locality>
+                            <PostalCode>400121</PostalCode>
+                            <CountryName>RO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:contact@btrl.ro</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.bancatransilvania.ro</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Payment Authenticator Issuer</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.bancatransilvania.ro</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -169,8 +220,7 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <X509Certificate>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</X509Certificate>
-                                <X509SKI>GPVP0uB0ssvIlFFAIyS9kWn3LmI=</X509SKI>
+                                <X509Certificate>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</X509Certificate>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
@@ -187,9 +237,6 @@
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-                                <X509SKI>GPVP0uB0ssvIlFFAIyS9kWn3LmI=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
@@ -933,4 +980,3 @@
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
-
