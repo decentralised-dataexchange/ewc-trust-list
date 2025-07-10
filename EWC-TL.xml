@@ -256,6 +256,52 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
+                    <Name xml:lang="en">Jacobson Lumberyard</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Jacobson Lumberyard</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Jacobson Lumberyard EAA issuer</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
                     <Name xml:lang="en">Lissi GmbH</Name>
                 </TSPName>
                 <TSPTradeName>
