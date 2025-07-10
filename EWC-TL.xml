@@ -256,10 +256,10 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">Jacobson Lumberyard</Name>
+                    <Name xml:lang="en">iGrant.io, Sweden</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="en">Jacobson Lumberyard</Name>
+                    <Name xml:lang="en">LCubed AB</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -283,7 +283,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Jacobson Lumberyard EAA issuer</Name>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -293,7 +293,7 @@
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://staging-business.igrant.io/</ServiceSupplyPoint>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
