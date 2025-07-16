@@ -297,6 +297,61 @@
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnwCKpeQ8Zzos61VPFp5naRK4iaVFYgx3sFG3L7G7cv2JSGsUTJJ8KbcDwAfKGkjfwHHGXBPTk9emvct2auLmvpditH6VL19gDqwb8r6MAr9dPqHq2fDkcRxiRxGD8eVWDa#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnwCKpeQ8Zzos61VPFp5naRK4iaVFYgx3sFG3L7G7cv2JSGsUTJJ8KbcDwAfKGkjfwHHGXBPTk9emvct2auLmvpditH6VL19gDqwb8r6MAr9dPqHq2fDkcRxiRxGD8eVWDa</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<DID>did:web:staging-oid4vc.igrant.io:organisation:30e32199-6ab3-4543-99e0-89d3a4db56be:service#c10061fccfe248369c71991ee7c2a36f</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<KID>c10061fccfe248369c71991ee7c2a36f</KID>
+<JwksURI>https://staging-oid4vc.igrant.io/organisation/30e32199-6ab3-4543-99e0-89d3a4db56be/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
