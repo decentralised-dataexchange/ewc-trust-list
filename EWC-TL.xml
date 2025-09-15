@@ -192,9 +192,8 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <KID>bUKDJxhAmrixUMmLsUuD4ZJlDDA9KtlHdJk8LGmJiXU</KID>
-                                <JwksURI>
-                                    https://staging-oid4vc.igrant.io/organisation/21ab838f-c6e5-43b9-b5bb-289430aa3323/service/jwks</JwksURI>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
