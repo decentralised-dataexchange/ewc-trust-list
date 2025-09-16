@@ -203,6 +203,26 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqfbPuGwMpqt5kmU1E4uxVysgUTNPj7dTqtHeYnd5hPGLih6J5RsMF42dGW3ThNNvKWcEdCoGCqHYPzW7gga9wS4vRbzxjuT6jbPbPLFsdKrhfNFwdDfdoUG23isU9dW6dS#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqfbPuGwMpqt5kmU1E4uxVysgUTNPj7dTqtHeYnd5hPGLih6J5RsMF42dGW3ThNNvKWcEdCoGCqHYPzW7gga9wS4vRbzxjuT6jbPbPLFsdKrhfNFwdDfdoUG23isU9dW6dS</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
