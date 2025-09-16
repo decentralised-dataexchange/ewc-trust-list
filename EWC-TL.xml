@@ -192,7 +192,8 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe</DID>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
@@ -212,7 +213,9 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqfbPuGwMpqt5kmU1E4uxVysgUTNPj7dTqtHeYnd5hPGLih6J5RsMF42dGW3ThNNvKWcEdCoGCqHYPzW7gga9wS4vRbzxjuT6jbPbPLFsdKrhfNFwdDfdoUG23isU9dW6dS#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqfbPuGwMpqt5kmU1E4uxVysgUTNPj7dTqtHeYnd5hPGLih6J5RsMF42dGW3ThNNvKWcEdCoGCqHYPzW7gga9wS4vRbzxjuT6jbPbPLFsdKrhfNFwdDfdoUG23isU9dW6dS</DID>
+                                <KID>7709b2b1d70c4d8582de53468c9386f5</KID>
+                                <JwksURI>
+                                    https://staging-oid4vc.igrant.io/organisation/4264f05a-e0cd-49cb-bb32-b664e1d0f448/service/jwks</JwksURI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
