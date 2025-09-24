@@ -226,6 +226,49 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bolagsverket</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bolagsverket.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>4b8da6912d8d4e26a7bfc35e299e451d</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/445f2b74-cc27-44ef-bed7-4809c13699cf/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
