@@ -269,6 +269,27 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Marketing</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbscMFyiuZZDeqX7WnK9u8C22fdKHfciTXJtzUYcHenvsicD7P14UyUYuAwtMufEs9VKWDsbQ3QcoUfy5KxcwnH7UQFKfPBrJLz4xUR8S589PdPcdR7vkipKhAkeCbfYMRBA</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
