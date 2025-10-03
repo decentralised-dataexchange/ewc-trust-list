@@ -161,10 +161,10 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">Verifier</Name>
+                    <Name xml:lang="en">iGrant.io</Name>
                 </TSPName>
                 <TSPTradeName>
-                    <Name xml:lang="en">Verifier</Name>
+                    <Name xml:lang="en">iGrant.io</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -188,7 +188,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Verifier</Name>
+                            <Name xml:lang="en">iGrant.io</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
