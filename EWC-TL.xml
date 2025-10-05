@@ -290,6 +290,27 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Piggy Bank</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp35jKjriYFBMMQ1jcRo6fL8cvR1dxjcbDJURtMGSkfMsW3L1PJ5QimhAjUyRA81hQBQw4WSD8pSGCQjN4kiWxkWYyR626EfUB2D1H3Hz6ysMpkhAg54pvA1gjJseBZJ7a4#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp35jKjriYFBMMQ1jcRo6fL8cvR1dxjcbDJURtMGSkfMsW3L1PJ5QimhAjUyRA81hQBQw4WSD8pSGCQjN4kiWxkWYyR626EfUB2D1H3Hz6ysMpkhAg54pvA1gjJseBZJ7a4</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://piggybank.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
