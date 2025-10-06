@@ -311,6 +311,48 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fast Ferries</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpeasbXXXxeLdXdgA9aK85JqqagS4BDGfbUXe7GGcB14iExX5RheqevAa6swVY4vMk8bAiJz2ReZfeYr2tkQjXB6Ar3DfVzDb6you2H7bYQGhbSjw62xLShU5UZzwV8McLt#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpeasbXXXxeLdXdgA9aK85JqqagS4BDGfbUXe7GGcB14iExX5RheqevAa6swVY4vMk8bAiJz2ReZfeYr2tkQjXB6Ar3DfVzDb6you2H7bYQGhbSjw62xLShU5UZzwV8McLt</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://fastferries.com.gr/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Banca Transilvania</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnAaher6Eu8C2CXhd7BGAeJbXeXYCMFstPtQ95wVWr8YudL1NbYLA3Q42dFf9o2QuWSDHV3zAEQPvaxFQY62Kb4aDpujJfiAGPzasfWG54m2K8c1HZUyoG5tNhLCzDSWfbS#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnAaher6Eu8C2CXhd7BGAeJbXeXYCMFstPtQ95wVWr8YudL1NbYLA3Q42dFf9o2QuWSDHV3zAEQPvaxFQY62Kb4aDpujJfiAGPzasfWG54m2K8c1HZUyoG5tNhLCzDSWfbS</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bancatransilvania.ro/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
