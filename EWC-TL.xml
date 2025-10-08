@@ -353,6 +353,27 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbptKqLYofyFWMr3zxgrFxmddiXpmwdkSHJrtkHRoWZhnzsMMX2pMjkzTYvGNdpci4phTMwLcDCsWcJcK1397kmxuix56LrQgCwqZ5Jbeinf2ygSycBqHDVSXMP2zUfwG7bz#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbptKqLYofyFWMr3zxgrFxmddiXpmwdkSHJrtkHRoWZhnzsMMX2pMjkzTYvGNdpci4phTMwLcDCsWcJcK1397kmxuix56LrQgCwqZ5Jbeinf2ygSycBqHDVSXMP2zUfwG7bz</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
