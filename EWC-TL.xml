@@ -384,7 +384,7 @@
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbponH3ZQ24tWBsjcSzDucUBsjCNdBk4yMMBbDHcG2qybY7do2zf81P9EowvXVb5mc7VANVfBmTgQb1rpdktxq8k7mPK6fSVGRMVdCPVfGagDkB39rjx84pAsooXu8stMug8</DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbponH3ZQ24tWBsjcSzDucUBsjCNdBk4yMMBbDHcG2qybY7do2zf81P9EowvXVb5mc7VANVfBmTgQb1rpdktxq8k7mPK6fSVGRMVdCPVfGagDkB39rjx84pAsooXu8stMug8#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbponH3ZQ24tWBsjcSzDucUBsjCNdBk4yMMBbDHcG2qybY7do2zf81P9EowvXVb5mc7VANVfBmTgQb1rpdktxq8k7mPK6fSVGRMVdCPVfGagDkB39rjx84pAsooXu8stMug8</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
