@@ -226,27 +226,7 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Bolagsverket</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-                                <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx</DID>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://bolagsverket.se/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
+            <!-- iGrant.io -->
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -269,6 +249,79 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bolagsverket</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bolagsverket</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bolagsverket</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@bolagsverket.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bolagsverket.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bolagsverket</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bolagsverket.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant.io Marketing</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant.io Marketing</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-business.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -290,6 +343,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Piggy Bank AB</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@piggybank.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://piggybank.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -311,6 +390,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Fast Ferries</StreetAddress>
+                            <Locality>Athens</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>GR</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@fastferries.com.gr</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://fastferries.com.gr</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -332,6 +437,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Banca Transilvania</StreetAddress>
+                            <Locality>Cluj-Napoca</Locality>
+                            <PostalCode>400000</PostalCode>
+                            <CountryName>RO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@bancatransilvania.ro</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bancatransilvania.ro</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -353,6 +484,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -374,6 +531,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">OmniSoftory Engineering S.A.</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">OmniSoftory Engineering S.A.</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>OmniSoftory Engineering S.A.</StreetAddress>
+                            <Locality>Zurich</Locality>
+                            <PostalCode>8000</PostalCode>
+                            <CountryName>CH</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@omnisoftory.ch</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.omnisoftory.ch</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
@@ -395,6 +578,32 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>CRANE d-HDSI</StreetAddress>
+                            <Locality>Bössvägen 28</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://staging-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
