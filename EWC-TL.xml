@@ -395,6 +395,27 @@
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kmxHUJdHsWnY37enVJqmU6cpEGSRfr3sawuy2JjS6MpkML7fSgqK8cRqxFVj9e3sCtrQdZetkoVkwDc8nf7KAV15Hi3u5XjLNnQnSc6gYRumLvg8wDEwMdRe1taJpGMJ#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kmxHUJdHsWnY37enVJqmU6cpEGSRfr3sawuy2JjS6MpkML7fSgqK8cRqxFVj9e3sCtrQdZetkoVkwDc8nf7KAV15Hi3u5XjLNnQnSc6gYRumLvg8wDEwMdRe1taJpGMJ</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
