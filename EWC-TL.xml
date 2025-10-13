@@ -896,7 +896,7 @@
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW</DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
