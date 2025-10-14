@@ -908,5 +908,52 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>CRANE d-HDSI</StreetAddress>
+                            <Locality>Bössvägen 28</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqCS2PxVkb87SFnFj64sqbqcYSTDjznJKYuHmiRqYqTZMfTKLKU3ajgRhn7G9Ain79nTiXUaQ1gr2uyQu8DcwkhA2FRfsG4unxreDBf3CiwvhwDQteCPeJaZ17ZHevywmqW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqCS2PxVkb87SFnFj64sqbqcYSTDjznJKYuHmiRqYqTZMfTKLKU3ajgRhn7G9Ain79nTiXUaQ1gr2uyQu8DcwkhA2FRfsG4unxreDBf3CiwvhwDQteCPeJaZ17ZHevywmqW</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
