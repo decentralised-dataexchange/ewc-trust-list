@@ -797,7 +797,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Relying Party</Name>
+                            <Name xml:lang="en">Employment Agency</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -808,7 +808,7 @@
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://relyingparty.se/</ServiceSupplyPoint>
+                            <ServiceSupplyPoint>https://employmentagency.se/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
