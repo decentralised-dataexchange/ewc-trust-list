@@ -1096,5 +1096,53 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbshHHZBqRyFEcdvjc1papv5LMzFSL766GkzgiWXk3uLaK4zB4yNd6JD4Thwo8sFUSQSNkek48fRdfLUAFU7nWZBK3ihaxJzrawCM8Xso1GUF5sfa8ot7NEyhX69HFMbak1i#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbshHHZBqRyFEcdvjc1papv5LMzFSL766GkzgiWXk3uLaK4zB4yNd6JD4Thwo8sFUSQSNkek48fRdfLUAFU7nWZBK3ihaxJzrawCM8Xso1GUF5sfa8ot7NEyhX69HFMbak1i</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
