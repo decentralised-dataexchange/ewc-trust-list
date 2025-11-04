@@ -1306,5 +1306,52 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bygg AB</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bygg AB</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Byggvägen 123</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11122</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@byggab.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://byggab.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bygg AB</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqGzgorKKxEX6hgcqxtbpMHq19tNgTgBpCBvp2kjDVxpPVDA3AdXQgSwvBxNc2v5VnMMkLLVUtAbmNKAz5DJiQ1zaEcY9DE7BiKxrHkT3mP7UHXUk295bt8RgzYeWJER3wA#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqGzgorKKxEX6hgcqxtbpMHq19tNgTgBpCBvp2kjDVxpPVDA3AdXQgSwvBxNc2v5VnMMkLLVUtAbmNKAz5DJiQ1zaEcY9DE7BiKxrHkT3mP7UHXUk295bt8RgzYeWJER3wA</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://byggab.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
