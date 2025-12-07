@@ -1446,5 +1446,99 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Brønnøysundregistrene</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Brønnøysundregistrene</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Havnegata 48</StreetAddress>
+                            <Locality>Brønnøysund</Locality>
+                            <PostalCode>8900</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:post@brreg.no</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.brreg.no</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Brønnøysundregistrene</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.brreg.no/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Tellu AS</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Tellu AS</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Lysaker Torg 15</StreetAddress>
+                            <Locality>Lysaker</Locality>
+                            <PostalCode>1366</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:post@tellu.no</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.tellu.no</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Tellu AS</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbn9wsQxt9JveRHhB6B5Q9Qt9EiMoXDh1JZqeUFvc2q17jG5JeyJWhH3hvaZqPGWS8HCR6WtkBMqBZTp976pgfKdGCibebHy4DSSf3HtxJYoyq9xQHzMCXVJ6z7yRk3fktrY#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbn9wsQxt9JveRHhB6B5Q9Qt9EiMoXDh1JZqeUFvc2q17jG5JeyJWhH3hvaZqPGWS8HCR6WtkBMqBZTp976pgfKdGCibebHy4DSSf3HtxJYoyq9xQHzMCXVJ6z7yRk3fktrY</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.tellu.no/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
