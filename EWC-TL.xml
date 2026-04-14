@@ -1901,7 +1901,7 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp74GnQHKxw9jaUQE4SwesZJdxtNuN8FGi6hh2cLtfNSz6V5c3DFPtEqbhJ2Ed3cuL1bTZppufo4ecA52ZMZBjA5LumdHhTazTMqzwZ9RYks2Aab4hGfhHqy4jqtYvPVSpt</DID>
+                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp74GnQHKxw9jaUQE4SwesZJdxtNuN8FGi6hh2cLtfNSz6V5c3DFPtEqbhJ2Ed3cuL1bTZppufo4ecA52ZMZBjA5LumdHhTazTMqzwZ9RYks2Aab4hGfhHqy4jqtYvPVSpt#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp74GnQHKxw9jaUQE4SwesZJdxtNuN8FGi6hh2cLtfNSz6V5c3DFPtEqbhJ2Ed3cuL1bTZppufo4ecA52ZMZBjA5LumdHhTazTMqzwZ9RYks2Aab4hGfhHqy4jqtYvPVSpt</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
