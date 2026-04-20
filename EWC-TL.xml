@@ -1913,5 +1913,205 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant.io, Sweden</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">LCubed AB</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>
+                                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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SubjectName>DNQ=RE1751981797500, CN=iGrant.io, O=iGrant.io, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>R6BbL03O4CHot1LxvWCsHU4GtOo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-07-24T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant OID4VC Staging</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>
+                                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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SubjectName>DNQ=RE1750081692676, CN=iGrant OID4VC Staging, O=iGrant, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>swXWmzTmGIRYd1zhVnu3FifDXcA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-07-24T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>
+                                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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SubjectName>DNQ=RE1749023387321, CN=iGrant, O=iGrant.io, OID.2.5.4.97=VATSE-24635263, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>zWZnImMtcOzVvlOqveopSqiIZFo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-07-24T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Travel Company</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Travel Company</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Travel Company</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>
+                                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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SubjectName>DNQ=RE1751655087254, CN=Travel Company, O=Travel Company, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>v8xGegSuzEfeglMpB1SngvCnCI0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-07-24T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
