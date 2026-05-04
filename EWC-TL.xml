@@ -2051,5 +2051,51 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bank Issuer</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bank Issuer</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bank Issuer</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICcjCCAhigAwIBAgIUX5+O/2PGz6Qdq/Y61D034cQk7ocwCgYIKoZIzj0EAwIwPTEaMBgGA1UEAwwRaUdyYW50LmlvIFRlc3QgQ0ExEjAQBgNVBAoMCWlHcmFudC5pbzELMAkGA1UEBhMCU0UwHhcNMjYwNTA0MTEwNTQ1WhcNMjcwNTA0MTEwNTQ1WjA3MRQwEgYDVQQDDAtCYW5rIElzc3VlcjESMBAGA1UECgwJaUdyYW50LmlvMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLkF3MdiVyTYZehLUyVBy12AgunNUJSZebauHGtC4ijqfnUysZfFNj88c4xIKDlt0TlOV+NMIiwkYzRShA1jLSqjgfswgfgwfwYDVR0RBHgwdoIYc3RhZ2luZy1vaWQ0dmMuaWdyYW50LmlvhlpodHRwczovL3N0YWdpbmctb2lkNHZjLmlncmFudC5pby9vcmdhbmlzYXRpb24vNjQzNTgyMGItZTc1NS00OTdiLTlhNjEtMzVjNDNjZWM3ZGNjL3NlcnZpY2UwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBSBvJG/7XVc5gZAp8NwlEak16RmyjAfBgNVHSMEGDAWgBSFiofRzIBuRANGikKxZmSWUoXyzDAKBggqhkjOPQQDAgNIADBFAiEA+DWamVZ1c0akEaT6wj1bIrEVGDtyVFWegFAPHpy02cMCIHWAuuSSsKoqhQTWOJQGckMiOdDOi+d78q7sXWrZhrMQ</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-05-04T11:05:45Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-oid4vc.igrant.io/organisation/6435820b-e755-497b-9a61-35c43cec7dcc/service</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
