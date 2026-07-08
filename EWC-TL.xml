@@ -1994,7 +1994,7 @@
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha</DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
@@ -2063,7 +2063,7 @@
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY</DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY</DID>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
