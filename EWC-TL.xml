@@ -2316,5 +2316,145 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbqfb9UjZxZwYtNSbwziMNprqYUpa5PaWK51uDXyz5bDw2vcpQuqkETP46qdQXcP1aXHfcBivDCayeXtvbVvaW6djdELhKUMMgNpNySkbmzomjLzF1jwg3biAKCSYcmQ2c6Q#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbqfb9UjZxZwYtNSbwziMNprqYUpa5PaWK51uDXyz5bDw2vcpQuqkETP46qdQXcP1aXHfcBivDCayeXtvbVvaW6djdELhKUMMgNpNySkbmzomjLzF1jwg3biAKCSYcmQ2c6Q</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-09T22:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-09T22:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpxoQu9xQjNfzztYaM2C71toEsHVe2cRW36ZDguCCfZbQ3WJxRRDvm8VHZsKnSsJVcWKgPy3YeBAmzHDYZQHfo37aocqc9eDVQ5s7FXQC7QhWoGsPFMwbpFzBGwABF6LCbv#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpxoQu9xQjNfzztYaM2C71toEsHVe2cRW36ZDguCCfZbQ3WJxRRDvm8VHZsKnSsJVcWKgPy3YeBAmzHDYZQHfo37aocqc9eDVQ5s7FXQC7QhWoGsPFMwbpFzBGwABF6LCbv</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-09T22:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
